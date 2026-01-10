@@ -1,4 +1,5 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
+import { MessageCircle } from 'lucide-react';
 
 const appIcons = [
   { name: 'Photoshop', icon: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg' },
@@ -65,9 +66,19 @@ const Offer = () => {
             href="https://pay.cakto.com.br/qseot7v_718408" 
             target="_blank"
             rel="noopener noreferrer"
-            className="cta-btn inline-block w-full text-xl px-12 py-5"
+            className="cta-btn inline-block w-full text-xl px-12 py-5 mb-3"
           >
             GARANTIR ACESSO AGORA <span className="bounce-arrow">→</span>
+          </a>
+          
+          <a 
+            href="https://wa.me/message/3IQNCW2OVRWUM1" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-cta-btn inline-flex items-center justify-center gap-3 w-full text-xl px-12 py-5"
+          >
+            <MessageCircle className="w-6 h-6" />
+            Compra No Whatsapp
           </a>
           
           <p className="text-zinc-500 text-sm mt-4">🔒 Seus dados estão protegidos</p>
