@@ -111,7 +111,13 @@
 
   .cta-btn {
     @apply inline-block bg-gradient-to-r from-pink-500 to-purple-600 text-white font-bold rounded-xl transition-all relative overflow-hidden;
+    box-shadow: 0 0 30px rgba(255, 97, 210, 0.4);
     animation: glow-pulse 2s ease-in-out infinite;
+  }
+
+  .cta-btn:hover {
+    box-shadow: 0 0 50px rgba(255, 97, 210, 0.6);
+    transform: scale(1.02);
   }
 
   .cta-btn::before {
@@ -236,14 +242,14 @@
 
   .whatsapp-btn {
     @apply w-16 h-16 rounded-full flex items-center justify-center;
-    background: linear-gradient(135deg, hsl(var(--gradient-pink)), hsl(var(--gradient-magenta)), hsl(var(--gradient-purple)));
-    box-shadow: 0 0 20px hsla(var(--glow-pink), 0.5);
+    background: linear-gradient(135deg, #FF6B6B, #FF61D2, #6B5BFF);
+    box-shadow: 0 0 20px rgba(255, 97, 210, 0.5);
     animation: whatsapp-float 2.5s ease-in-out infinite, whatsapp-glow 2.5s ease-in-out infinite;
   }
 
   .whatsapp-label {
     @apply text-xs font-extrabold uppercase tracking-wider;
-    background: linear-gradient(135deg, hsl(var(--gradient-pink)), hsl(var(--gradient-magenta)), hsl(var(--gradient-purple)));
+    background: linear-gradient(135deg, #FF6B6B, #FF61D2, #6B5BFF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -287,8 +293,8 @@
   }
 
   @keyframes glow-pulse {
-    0%, 100% { box-shadow: 0 0 30px hsla(var(--glow-pink), 0.4); }
-    50% { box-shadow: 0 0 50px hsla(var(--glow-pink), 0.7); }
+    0%, 100% { box-shadow: 0 0 30px rgba(255, 97, 210, 0.4); }
+    50% { box-shadow: 0 0 50px rgba(255, 97, 210, 0.7); }
   }
 
   @keyframes bounce-subtle {
@@ -311,8 +317,8 @@
   }
 
   @keyframes whatsapp-glow {
-    0%, 100% { box-shadow: 0 0 20px hsla(var(--glow-pink), 0.4); }
-    50% { box-shadow: 0 0 30px hsla(var(--glow-pink), 0.6), 0 0 45px hsla(var(--glow-purple), 0.3); }
+    0%, 100% { box-shadow: 0 0 20px rgba(255, 97, 210, 0.4); }
+    50% { box-shadow: 0 0 30px rgba(255, 97, 210, 0.6), 0 0 45px rgba(107, 91, 255, 0.3); }
   }
 
   @keyframes whatsapp-float {
