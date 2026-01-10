@@ -1,5 +1,5 @@
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import { MessageCircle } from 'lucide-react';
+import whatsappIcon from '@/assets/whatsapp-icon.png';
 
 const appIcons = [
   { name: 'Photoshop', icon: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg' },
@@ -77,7 +77,7 @@ const Offer = () => {
             rel="noopener noreferrer"
             className="whatsapp-cta-btn inline-flex items-center justify-center gap-3 w-full text-xl px-12 py-5"
           >
-            COMPRA NO WHATSAPP <MessageCircle className="w-6 h-6 bounce-arrow" />
+            COMPRA NO WHATSAPP <img src={whatsappIcon} alt="WhatsApp" className="w-7 h-7 bounce-arrow" />
           </a>
           
           <p className="text-zinc-500 text-sm mt-4">🔒 Seus dados estão protegidos</p>
