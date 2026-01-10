@@ -66,10 +66,16 @@ const Offer = () => {
             href="https://pay.cakto.com.br/qseot7v_718408" 
             target="_blank"
             rel="noopener noreferrer"
-            className="cta-btn inline-block w-full text-xl px-12 py-5 mb-3"
+            className="cta-btn inline-block w-full text-xl px-12 py-5"
           >
             GARANTIR ACESSO AGORA <span className="bounce-arrow">→</span>
           </a>
+          
+          <div className="flex items-center gap-4 my-4">
+            <div className="flex-1 h-px bg-zinc-700"></div>
+            <span className="text-zinc-400 text-sm font-medium">ou</span>
+            <div className="flex-1 h-px bg-zinc-700"></div>
+          </div>
           
           <a 
             href="https://wa.me/message/3IQNCW2OVRWUM1" 
