@@ -16,8 +16,8 @@ const Index = () => {
     <div className="min-h-screen bg-zinc-950 text-white">
       <Hero />
       <AppShowcase />
-      <Benefits />
       <Testimonials />
+      <Benefits />
       <WhyItMakesSense />
       <TargetAudience />
       <Offer />
