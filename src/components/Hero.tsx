@@ -55,9 +55,9 @@ const Hero = () => {
           <a 
             href="#oferta" 
             onClick={scrollToOffer}
-            className="cta-btn inline-block w-full md:w-auto text-lg px-10 py-4 mb-3"
+            className="hero-cta cta-btn inline-block w-full md:w-auto text-xl px-12 py-5 mb-3"
           >
-            COMPRE AGORA <span className="bounce-arrow">→</span>
+            GARANTIR ACESSO AGORA <span className="bounce-arrow">→</span>
           </a>
           
           <p className="text-zinc-400 text-lg mb-5">Pagamento único e vitalício</p>
@@ -69,13 +69,6 @@ const Hero = () => {
           </div>
         </div>
         
-        <a 
-          href="#oferta" 
-          onClick={scrollToOffer}
-          className="hero-cta cta-btn inline-block w-full md:w-auto text-xl px-12 py-5"
-        >
-          GARANTIR ACESSO AGORA <span className="bounce-arrow">→</span>
-        </a>
         
         <p className="hero-cta text-zinc-500 text-sm mt-4">🔒 Pagamento 100% seguro</p>
       </div>
