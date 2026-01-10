@@ -106,7 +106,34 @@
 
   .card-lift:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 40px hsla(var(--glow-purple), 0.2);
+    box-shadow: 0 10px 40px rgba(107, 91, 255, 0.2);
+  }
+
+  /* App card hover glow effects */
+  .app-card-photoshop:hover {
+    box-shadow: 0 0 30px rgba(49, 168, 255, 0.4), 0 10px 40px rgba(49, 168, 255, 0.2);
+    border-color: rgba(49, 168, 255, 0.5) !important;
+  }
+
+  .app-card-illustrator:hover {
+    box-shadow: 0 0 30px rgba(255, 154, 0, 0.4), 0 10px 40px rgba(255, 154, 0, 0.2);
+    border-color: rgba(255, 154, 0, 0.5) !important;
+  }
+
+  .app-card-premiere:hover,
+  .app-card-aftereffects:hover {
+    box-shadow: 0 0 30px rgba(153, 153, 255, 0.4), 0 10px 40px rgba(153, 153, 255, 0.2);
+    border-color: rgba(153, 153, 255, 0.5) !important;
+  }
+
+  .app-card-lightroom:hover {
+    box-shadow: 0 0 30px rgba(49, 168, 255, 0.4), 0 10px 40px rgba(49, 168, 255, 0.2);
+    border-color: rgba(49, 168, 255, 0.5) !important;
+  }
+
+  .app-card-indesign:hover {
+    box-shadow: 0 0 30px rgba(255, 51, 102, 0.4), 0 10px 40px rgba(255, 51, 102, 0.2);
+    border-color: rgba(255, 51, 102, 0.5) !important;
   }
 
   .cta-btn {

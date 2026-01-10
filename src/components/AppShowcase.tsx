@@ -5,37 +5,37 @@ const apps = [
     name: 'Photoshop',
     description: 'Edição de imagens',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg',
-    hoverColor: 'hover:border-[#31A8FF]/50',
+    glowClass: 'app-card-photoshop',
   },
   {
     name: 'Illustrator',
     description: 'Vetores e logos',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Adobe_Illustrator_CC_icon.svg',
-    hoverColor: 'hover:border-[#FF9A00]/50',
+    glowClass: 'app-card-illustrator',
   },
   {
     name: 'Premiere Pro',
     description: 'Edição de vídeo',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/4/40/Adobe_Premiere_Pro_CC_icon.svg',
-    hoverColor: 'hover:border-[#9999FF]/50',
+    glowClass: 'app-card-premiere',
   },
   {
     name: 'After Effects',
     description: 'Motion graphics',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/c/cb/Adobe_After_Effects_CC_icon.svg',
-    hoverColor: 'hover:border-[#9999FF]/50',
+    glowClass: 'app-card-aftereffects',
   },
   {
     name: 'Lightroom',
     description: 'Tratamento de fotos',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Adobe_Photoshop_Lightroom_CC_logo.svg',
-    hoverColor: 'hover:border-[#31A8FF]/50',
+    glowClass: 'app-card-lightroom',
   },
   {
     name: 'InDesign',
     description: 'Design editorial',
     icon: 'https://upload.wikimedia.org/wikipedia/commons/4/48/Adobe_InDesign_CC_icon.svg',
-    hoverColor: 'hover:border-[#FF3366]/50',
+    glowClass: 'app-card-indesign',
   },
 ];
 
@@ -68,7 +68,7 @@ const AppShowcase = () => {
           {apps.map((app) => (
             <div 
               key={app.name}
-              className={`app-icon card-lift bg-zinc-900 border border-zinc-800 rounded-xl p-6 ${app.hoverColor}`}
+              className={`app-icon card-lift bg-zinc-900 border border-zinc-800 rounded-xl p-6 ${app.glowClass}`}
             >
               <img 
                 src={app.icon} 
