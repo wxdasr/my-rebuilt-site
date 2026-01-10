@@ -77,8 +77,7 @@ const Offer = () => {
             rel="noopener noreferrer"
             className="whatsapp-cta-btn inline-flex items-center justify-center gap-3 w-full text-xl px-12 py-5"
           >
-            <MessageCircle className="w-6 h-6" />
-            Compra No Whatsapp
+            COMPRA NO WHATSAPP <MessageCircle className="w-6 h-6 bounce-arrow" />
           </a>
           
           <p className="text-zinc-500 text-sm mt-4">🔒 Seus dados estão protegidos</p>
