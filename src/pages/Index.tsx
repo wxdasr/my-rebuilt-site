@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import AppShowcase from '@/components/AppShowcase';
 import Benefits from '@/components/Benefits';
+import Testimonials from '@/components/Testimonials';
 import WhyItMakesSense from '@/components/WhyItMakesSense';
 import TargetAudience from '@/components/TargetAudience';
 import Offer from '@/components/Offer';
@@ -16,6 +17,7 @@ const Index = () => {
       <Hero />
       <AppShowcase />
       <Benefits />
+      <Testimonials />
       <WhyItMakesSense />
       <TargetAudience />
       <Offer />
