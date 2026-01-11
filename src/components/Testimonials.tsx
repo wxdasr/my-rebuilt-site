@@ -41,7 +41,7 @@ const Testimonials = () => {
             MAIS DE <span className="gradient-text">50.000 CLIENTES</span> SATISFEITOS
           </h2>
           <p className="text-zinc-400 text-lg md:text-xl max-w-2xl mx-auto">
-            Veja o que nossos clientes estão dizendo sobre o acesso premium da OpTech.
+            Veja o que nossos clientes estão dizendo sobre o acesso premium da FlowOpTech.
           </p>
         </div>
 
